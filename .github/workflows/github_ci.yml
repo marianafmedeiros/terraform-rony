@@ -27,7 +27,9 @@ jobs:
     - name: Run tests on lambda function
       env:
         BUCKET: "my-bucket"
-        REGION: "my-region"
+        REGION: "us-east-1"
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |
         python -m pytest
   

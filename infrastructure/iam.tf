@@ -174,7 +174,7 @@ resource "aws_iam_policy" "lambda" {
         {
             "Effect": "Allow",
             "Action": [
-                "s3:*",
+                "s3:*"
             ],
             "Resource": "*"
         }

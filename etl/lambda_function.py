@@ -3,7 +3,7 @@ import os
 
 import boto3
 
-file_name = "/tmp/titic.csv"
+file_name = "/tmp/titanic.csv"
 object_name = "raw-data/titanic/titanic.csv"
 
 def get_data():
