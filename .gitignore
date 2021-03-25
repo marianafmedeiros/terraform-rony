@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 .terraform/
+.terraform.lock.hcl
 
 *_env/
